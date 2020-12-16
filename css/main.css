@@ -90,8 +90,10 @@ li.active {
 
 .slider-info {
   position: absolute;
-  top: 26%;
-  left: 13%;
+  /* top: 26%;
+  left: 13%; */
+  top: 100px;
+  left: 300px;
   max-width: 650px;
 }
 
@@ -121,4 +123,30 @@ li.active {
 .slider-buttons a:hover {
   background-color: #23b7a4;
   border: 2px solid #23b7a4;
+}
+
+.slick-dots {
+  position: absolute;
+  top: 90%;
+  left: 82.3%;
+}
+
+.slick-dots li {
+  border-radius: 50%;
+  width: 11px;
+  height: 11px;
+  text-indent: -9999px;
+  margin-right: 8px;
+  float: left;
+  border: 2px solid #fff;
+} 
+
+.slick-dots::before {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+.slick-active {
+  background: #fff;
 }

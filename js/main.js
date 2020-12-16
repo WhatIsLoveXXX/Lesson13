@@ -1,7 +1,10 @@
 $(document).ready(function () {
-    $('.slider-inner').slick({
-        autoplay: true,
-        autoplaySpeed: 8000,
+    $('.slider').slick({
+      autoplay: true,
+      autoplaySpeed: 5000,
+      dots: true,
+      arrows: false,
+      dotsClass: 'slick-dots',
         responsive: [
             {
               breakpoint: 1200,
