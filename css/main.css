@@ -1,3 +1,6 @@
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Quattrocento Sans', sans-serif; */
+
 *,
 *:before,
 *:after {
@@ -5,7 +8,55 @@
 }
 
 .container {
-    max-width: 1140px;
-    width: 100%;
-    margin: auto;
-  }
+  max-width: 1140px;
+  width: 100%;
+  margin: auto;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Quattrocento Sans', sans-serif;  
+}
+
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: #23b7a4;
+}
+
+.header {
+  background-color: #292f36;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  padding: 31px 0 32px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  margin-right: 18px;
+}
+
+.navigation-list {
+  display: flex;
+  font: 14px 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
+.navigation-list li {
+  margin-left: 40px;
+}
+
+.navigation-list li a {
+  color: #a4aead;
+}
