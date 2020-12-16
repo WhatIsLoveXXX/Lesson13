@@ -16,7 +16,7 @@ font-family: 'Quattrocento Sans', sans-serif; */
 h1,
 h2,
 h3 {
-  font-family: 'Quattrocento Sans', sans-serif;  
+  font-family: 'Quattrocento Sans', sans-serif;
 }
 
 img {
@@ -55,8 +55,70 @@ a {
 
 .navigation-list li {
   margin-left: 40px;
+  border: 2px solid transparent;
 }
 
 .navigation-list li a {
   color: #a4aead;
+  padding: 0 10px;
+  line-height: 30px;
+}
+
+.navigation-list li.active a{
+  color: #23b7a4;
+}
+
+li.active {
+  border: 2px solid #23b7a4;
+  border-radius: 4px;
+}
+
+.navigation-list li:hover {
+  border: 2px solid #5b6168;
+  border-radius: 4px;
+}
+
+.slider {
+  font-family: 'Quattrocento Sans', sans-serif;
+  color: #fff;
+  position: relative;
+}
+
+.slider img {
+  width: 100%;
+}
+
+.slider-info {
+  position: absolute;
+  top: 26%;
+  left: 13%;
+  max-width: 650px;
+}
+
+.slider-info h1 {
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.slider-info span {
+  font: 16px/26px 'Open Sans', sans-serif;
+  color: #ccd0d7;
+  display: block;
+  margin-bottom: 40px;
+}
+
+.slider-buttons a {
+  color: #fff;
+  font: 14px/28px 'Quattrocento Sans', sans-serif;
+  margin-right: 11px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding: 17px 24px;
+}
+
+.slider-buttons a:hover {
+  background-color: #23b7a4;
+  border: 2px solid #23b7a4;
 }
