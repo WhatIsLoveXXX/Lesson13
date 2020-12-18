@@ -9,8 +9,7 @@ font-family: 'Quattrocento Sans', sans-serif; */
 
 .container {
   max-width: 1140px;
-  width: 100%;
-  margin: auto;
+  margin: 0 auto;
 }
 
 h1,
@@ -42,6 +41,10 @@ a {
 .logo {
   padding: 32px 0 31px;
   margin-left: -3px;
+}
+
+.header-burger {
+  display: none;
 }
 
 .navigation {
@@ -90,16 +93,25 @@ li.active {
 
 .slider img {
   width: 100%;
+  object-fit: cover;
 }
 
 .slider-wrapper {
   position: relative;
 }
 
+.slider-info-wrapper {
+  width: 1140px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);  
+  top: 33%;
+}
+
 .slider-info {
   position: absolute;
-  top: 33%;
-  left: 20%;
+  top: 0;
+  left: -1px;
   max-width: 650px;
 }
 
@@ -273,15 +285,17 @@ li.active {
 
 .team-list li {
   position: relative;
+  max-width: 263px;
+}
+
+.team-list img {
+  max-width: 100%;
+  object-fit: cover;
 }
 
 .team-description {
-  /* position: absolute;
-  bottom: 0;
-  left: 0; */
   background: #e1e6ea;
   width: 100%;
-  /* height: 21.1%; */
   height: 74px;
   padding: 18px 0 0 20px;
 }

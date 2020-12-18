@@ -7,9 +7,9 @@ $(document).ready(function () {
       dotsClass: 'slick-dots',
         responsive: [
             {
-              breakpoint: 1200,
+              breakpoint: 767,
               settings: {
-                arrows: false
+                dots: false
               }
             }]
     });
